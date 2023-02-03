@@ -23,6 +23,7 @@ SURNAME = {'A': 'Analogue', 'B': 'Bomb', 'C': 'Catalyst' ...}
 alias_gen('Larry', 'Brentwood') == 'Logic Bomb'
 alias_gen('123abc', 'Petrovic') == 'Your name must start with a letter from A - Z.'
 """
+
 def alias_gen(f_name, l_name):
     f_char = f_name[0].upper()
     l_char = l_name[0].upper()
@@ -36,7 +37,7 @@ def alias_gen(f_name, l_name):
 def alias_gen(f_name, l_name):
     f_char = f_name[0]
     l_char = l_name[0]
-    
+
     if f_char.isnumeric() or l_char.isnumeric():
         return "Your name must start with a letter from A - Z."
     else:
