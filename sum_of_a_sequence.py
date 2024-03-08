@@ -19,7 +19,6 @@ def sequence_sum(begin_number, end_number, step):
     else:
         i = begin_number
         while i <= end_number:
-            print(i)
             output += i
             i += step         
     return output
